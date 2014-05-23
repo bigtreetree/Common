@@ -1,0 +1,7 @@
+Resource.h是用来对资源进行管理
+
+RWLock.h是利用操作系统提供的SRWLock来实现读定锁(对Windows Api进行了封装)
+
+ConditionVariable.h是利用操作系统提供的条件变量来实现条件变量
+
+CriticalSection.h是临界区

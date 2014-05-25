@@ -25,5 +25,5 @@ void TCriticalSection::Lock()
 
 void TCriticalSection::UnLock()
 {
-	VOID LeaveCriticalSection(PCRITICAL_SECTION Pcs);
+	LeaveCriticalSection(&m_critical);
 }

@@ -15,7 +15,7 @@ public:
 	void UnLock();// Õ∑≈¡ŸΩÁ«¯
 
 private:
-	CRITICALSECTION_H m_critical;
+	CRITICAL_SECTION m_critical;
 };
 
 #endif

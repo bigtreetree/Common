@@ -27,6 +27,9 @@
     <ClInclude Include="CriticalSection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Load_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RWLock.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CriticalSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_lib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

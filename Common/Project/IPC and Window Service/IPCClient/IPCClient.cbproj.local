@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/23 14:13:02.174.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit2.cpp=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\Client.cpp</Transaction>
+    <Transaction>2014/04/23 14:13:02.174.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit2.h=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\Client.h</Transaction>
+    <Transaction>2014/04/23 14:13:02.174.dfm,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\Client.dfm</Transaction>
+    <Transaction>2014/04/23 14:13:24.223.cbproj,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Project2.cbproj=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\IPCClient.cbproj</Transaction>
+    <Transaction>2014/04/23 14:32:26.122.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\IPCManager.cpp=</Transaction>
+    <Transaction>2014/04/23 14:32:29.275.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\IPCManager.h=</Transaction>
+    <Transaction>2014/04/23 14:32:31.830.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\ipc_interface.h=</Transaction>
+    <Transaction>2014/04/23 14:32:34.813.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\Pipe.cpp=</Transaction>
+    <Transaction>2014/04/23 14:32:38.199.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\Pipe.h=</Transaction>
+    <Transaction>2014/04/23 14:32:40.686.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\PipeImpl.cpp=</Transaction>
+    <Transaction>2014/04/23 14:32:43.693.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\PIpeImpl.h=</Transaction>
+    <Transaction>2014/04/23 14:32:46.797.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCClient\ScopedLock.cpp=</Transaction>
+    <Transaction>2014/04/23 19:09:07.526.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\log_info.h=</Transaction>
+    <Transaction>2014/04/23 19:09:12.516.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\log_info.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/23 12:14:02.680.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\Server.cpp</Transaction>
+    <Transaction>2014/04/23 12:14:02.680.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit1.h=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\Server.h</Transaction>
+    <Transaction>2014/04/23 12:14:02.680.dfm,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\Server.dfm</Transaction>
+    <Transaction>2014/04/23 12:14:30.012.cbproj,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Project2.cbproj=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\IPCServer.cbproj</Transaction>
+    <Transaction>2014/05/05 15:29:06.930.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\File1.h=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\ReadMe.h</Transaction>
+    <Transaction>2014/05/05 15:29:16.453.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\IPCServer\ReadMe.h=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\ReadMe.h</Transaction>
+  </Transactions>
+</BorlandProject>

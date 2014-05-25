@@ -13,6 +13,7 @@ TRWLock::~TRWLock()
 void TRWLock::AcquireRWLockExclusive()
 {
 	AcquireSRWLockExclusive(&m_rw_lock);//不存在删除读写锁的函数，即不需要对读写锁进行删除
+	
 }
 
 void TRWLock::ReleaseRWLockExclusive()
@@ -22,7 +23,7 @@ void TRWLock::ReleaseRWLockExclusive()
 
 void TRWLock::AcquireRWLockShared()
 {
-	AcquireSRWLockExclusive(&m_rw_lock);
+	AcquireSRWLockShared(&m_rw_lock);
 }
 
 void TRWLock::ReleaseRWLockShared()

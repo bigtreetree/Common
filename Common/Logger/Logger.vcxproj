@@ -64,12 +64,14 @@
   <ItemGroup>
     <ClInclude Include="ConditionVariable.h" />
     <ClInclude Include="CriticalSection.h" />
+    <ClInclude Include="Load_lib.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RWLock.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConditionVariable.cpp" />
     <ClCompile Include="CriticalSection.cpp" />
+    <ClCompile Include="Load_lib.cpp" />
     <ClCompile Include="RWLock.cpp" />
   </ItemGroup>
   <ItemGroup>

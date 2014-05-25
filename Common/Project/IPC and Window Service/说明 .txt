@@ -1,0 +1,16 @@
+IPCServer 是存放的双管道（用两个管道来实现双向通信）的服务端代码demo
+
+IPCClient是存放的双管道（用两个管道来实现双向通信)的客户端代码 demo,程序启动时需要服务端先启动
+
+
+
+
+ObjectMemory下面存放的是用来对对象内存拷贝到char buffer中，再从char buffer中拷贝到另一个新对象中，两个
+对象内容保持一致。
+
+window service 和service 里面存放的是windows service
+
+
+
+bin文件夹下存放的是编译好debug模式下生成的exe文件
+release文件夹下存放的是编译好release模型下生成的exe文件。

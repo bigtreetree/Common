@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014/05/04 09:35:28.752.cpp,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\window service\service.cpp</Transaction>
+    <Transaction>2014/05/04 09:35:28.752.h,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit1.h=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\window service\service.h</Transaction>
+    <Transaction>2014/05/04 09:35:28.752.dfm,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\window service\service.dfm</Transaction>
+    <Transaction>2014/05/04 09:35:47.349.cbproj,C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\Projects\Project2.cbproj=C:\Users\Administrator.PC-20140104IKZX\Documents\RAD Studio\window service\WindowService.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

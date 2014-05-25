@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A4C1DECD-1A16-4156-B3B3-875DEB450223}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="IPCServer\IPCServer.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="IPCClient\IPCClient.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="service\ServiceProject.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="IPCServer">
+			<MSBuild Projects="IPCServer\IPCServer.cbproj"/>
+		</Target>
+		<Target Name="IPCServer:Clean">
+			<MSBuild Targets="Clean" Projects="IPCServer\IPCServer.cbproj"/>
+		</Target>
+		<Target Name="IPCServer:Make">
+			<MSBuild Targets="Make" Projects="IPCServer\IPCServer.cbproj"/>
+		</Target>
+		<Target Name="IPCClient">
+			<MSBuild Projects="IPCClient\IPCClient.cbproj"/>
+		</Target>
+		<Target Name="IPCClient:Clean">
+			<MSBuild Targets="Clean" Projects="IPCClient\IPCClient.cbproj"/>
+		</Target>
+		<Target Name="IPCClient:Make">
+			<MSBuild Targets="Make" Projects="IPCClient\IPCClient.cbproj"/>
+		</Target>
+		<Target Name="ServiceProject">
+			<MSBuild Projects="service\ServiceProject.cbproj"/>
+		</Target>
+		<Target Name="ServiceProject:Clean">
+			<MSBuild Targets="Clean" Projects="service\ServiceProject.cbproj"/>
+		</Target>
+		<Target Name="ServiceProject:Make">
+			<MSBuild Targets="Make" Projects="service\ServiceProject.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="IPCServer;IPCClient;ServiceProject"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="IPCServer:Clean;IPCClient:Clean;ServiceProject:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="IPCServer:Make;IPCClient:Make;ServiceProject:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
